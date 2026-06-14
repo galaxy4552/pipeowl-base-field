@@ -1,5 +1,5 @@
 
-# PipeOwls base.npy&field.npy
+# PipeOwls base.npy&field_prior.npy
 
 ## For 2026 COSCUP
 
