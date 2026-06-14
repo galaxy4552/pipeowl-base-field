@@ -1,2 +1,19 @@
-# pipeowl-base-field
-This repository shows how to create base.npy &amp; field.npy from embedding model
+
+# PipeOwl Base Field
+
+## For 2026 COSCUP
+
+This repository demonstrates how to construct a semantic base and field prior from embedding models.
+
+Outputs:
+- base.npy      : semantic base vectors
+- field_prior.npy : reference field direction
+
+## Concept
+
+```text
+word
+→ base vector
+→ field prior
+→ future trained field
+```
