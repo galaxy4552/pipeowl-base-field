@@ -1,6 +1,6 @@
-#PipeOwl Base & Field Prior
+# PipeOwl Base & Field Prior
 
-##For COSCUP 2026
+## For COSCUP 2026
 
 This repository demonstrates how to construct a semantic base and a field prior from embedding models.
 
@@ -8,7 +8,7 @@ Outputs
 - base.npy — semantic base vectors
 - field_prior.npy — reference field prior
 
-## Concept
+### Concept
 
 ```word
 → base vector
@@ -16,7 +16,7 @@ Outputs
 → future trained field
 ```
 
-## What is Base?
+### What is Base?
 
 A semantic base is a collection of embedding vectors generated from a vocabulary.
 
@@ -26,7 +26,7 @@ word
 
 The base provides a stable semantic coordinate system for retrieval and similarity search.
 
-## What is Field Prior?
+### What is Field Prior?
 
 A field prior is an initial semantic direction derived from embedding-space transformations.
 
@@ -42,7 +42,7 @@ The field prior is not a trained field.
 
 Instead, it serves as an initialization or reference coordinate for future field learning, similar in spirit to a positional prior.
 
-##Files
+### Files
 
 build_base.py
     Build base.npy from a vocabulary list.
