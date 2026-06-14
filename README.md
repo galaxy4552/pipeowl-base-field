@@ -32,9 +32,8 @@ A field prior is an initial semantic direction derived from embedding-space tran
 
 For example:
 
-E("happy is defined as ...")
--
-E("happy")
+-E("happy is defined as ...")
+-E("happy")
 
 The averaged displacement forms a reference direction in semantic space.
 
