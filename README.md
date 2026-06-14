@@ -2,6 +2,8 @@
 
 ## For COSCUP 2026
 
+[投影片點我](https://hackmd.io/@galaxy4552/HyG_KtfcWe)
+
 This repository demonstrates how to construct a semantic base and a field prior from embedding models.
 
 Outputs
