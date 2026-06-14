@@ -30,11 +30,6 @@ The base provides a stable semantic coordinate system for retrieval and similari
 
 A field prior is an initial semantic direction derived from embedding-space transformations.
 
-For example:
-
--E("happy is defined as ...")
--E("happy")
-
 The averaged displacement forms a reference direction in semantic space.
 
 The field prior is not a trained field.
