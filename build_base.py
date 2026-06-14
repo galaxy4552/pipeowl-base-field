@@ -18,7 +18,7 @@ import torch.nn.functional as F
 from transformers import AutoTokenizer, AutoModel
 
 DEFAULT_MODEL = "BAAI/bge-m3"
-DEFAULT_VOCAB = r"C:\code\base\data\tokenizer.json"
+DEFAULT_VOCAB = r"C:\code\base\data\base_vocab.json"
 
 def main():
     ap = argparse.ArgumentParser()
